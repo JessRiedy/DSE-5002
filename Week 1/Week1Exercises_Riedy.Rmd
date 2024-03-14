@@ -69,7 +69,7 @@ Show which value is contained in the test vector. To do this you will need to cr
 xyz <- c(x, y, z)
 for (i in 1:length(test_vector)) {
   if(test_vector[i] %in% xyz) {
-    print(i)
+    print(test_vector[i])
   }
 }
 
