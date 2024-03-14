@@ -2,10 +2,7 @@
 title: "Week 1 Exercises"
 author: "Jessica Riedy"
 date: "`r Sys.Date()`"
-output:
-  html_document:
-    df_print: paged
-    #pdf_document
+output: pdf_document
 ---
 
 Please complete all exercises below WITHOUT using any libraries/packages.
